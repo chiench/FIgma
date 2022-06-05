@@ -1,0 +1,95 @@
+body {
+  font-family: $font-primary;
+}
+
+.wrapper {
+  max-width: 1440px;
+  background: #f6f6f6;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.header {
+  @include displayflex;
+  height: 120px;
+}
+.header-logo {
+  width: 150px;
+  color: $text-header;
+  height: 36px;
+}
+.header-logo img {
+  width: 150px;
+  height: 36px;
+}
+.header-logo {
+  margin-right: 156px;
+}
+.header-menu {
+  margin-right: 150px;
+}
+
+.header-list {
+  @include displayflex;
+}
+.header-list .header-item {
+  margin-right: 40px;
+}
+.header-list .header-item a:hover {
+  color: rgb(52, 44, 44);
+  padding-bottom: 2px;
+}
+.header-list .header-item a {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: $text-header;
+}
+.header-list .header-item:last-child {
+  margin-right: 0px;
+}
+
+.header .header-menu-action .action {
+  @include displayflex;
+}
+.header .header-menu-action .action .item-action-1 {
+  margin-right: 30px;
+}
+.header .header-menu-action .action .item-action-1 {
+    margin-right: 30px;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #0B132A;
+  }
+.header .header-menu-action .action .item-action-2 {
+  margin-left: 0px;
+  border: 1px solid #f53855;
+  padding: 12px 40px;
+  border-radius: 50px;
+  transition: 0.5s;
+}
+.header .header-menu-action .action .item-action-2:hover {
+  padding: 15px 41px;
+  border: 1px solid #826b6e;
+  
+}
+.header .header-menu-action .action .item-action-2 a {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    
+    
+    color: #F53855;
+}

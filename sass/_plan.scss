@@ -1,0 +1,129 @@
+.plan {
+  margin-top: 80px;
+
+  margin-bottom: 150px;
+}
+.plan .plan-header {
+  margin-bottom: 60px;
+}
+.plan .plan-header h1 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 50px;
+  /* identical to box height, or 143% */
+
+  text-align: center;
+
+  color: #0b132a;
+}
+.plan .plan-header p {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  /* or 188% */
+
+  text-align: center;
+
+  color: #4f5665;
+}
+.plan .plan-content {
+  display: flex;
+  justify-content: space-around;
+}
+.plan .plan-content .plan-box {
+  border: 1px solid;
+  align-items: center;
+  border-radius: 20px;
+  width: 300px;
+  height: 750px;
+}
+.box2 {
+  margin: 0 40px;
+}
+.content-box {
+  text-align: center;
+  margin: 30px 0px;
+}
+.plan-box .image-box {
+  width: 145px;
+  height: 165px;
+  margin: 75px 80px 0px 80px;
+}
+.plan-box .content-box h1 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  /* identical to box height, or 167% */
+
+  text-align: center;
+  margin-left: 12px;
+
+  color: #0b132a;
+}
+.menu-box-item .box-item i {
+  border: none;
+  border-radius: 50%;
+  color: #2fab73;
+  padding: 5px 5px 5px 5px;
+  font-size: 12px;
+}
+.menu-box-item .box-item span {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  /* identical to box height, or 214% */
+
+  color: #4f5665;
+  margin-left: 20px;
+  margin-top: 40px;
+}
+.menu-box-item {
+  align-items: center;
+
+  padding-left: 55px;
+}
+.menu-box .action-box {
+  margin-top: 130px;
+  text-align: center;
+}
+.menu-box .action-box h1 {
+  margin-bottom: 30px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+  /* identical to box height, or 120% */
+
+  text-align: center;
+
+  color: #0b132a;
+}
+.menu-box .action-box a {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 25px;
+  /* identical to box height, or 156% */
+
+  color: #ffffff;
+  padding: 17px 70px;
+  background: #f53838;
+  border-radius: 12px;
+  transition: 0.6s;
+}
+.menu-box .action-box a:hover {
+  background-color: #f4ebeb;
+  padding: 20px 80px;
+  color: #f53838;
+  border-radius: 12px;
+}

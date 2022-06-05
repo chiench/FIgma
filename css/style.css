@@ -1,0 +1,439 @@
+body {
+  font-family: "Odibee Sans", cursive;
+}
+
+.wrapper {
+  max-width: 1440px;
+  background: #f6f6f6;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 120px;
+}
+
+.header-logo {
+  width: 150px;
+  color: #4F5665;
+  height: 36px;
+}
+
+.header-logo img {
+  width: 150px;
+  height: 36px;
+}
+
+.header-logo {
+  margin-right: 156px;
+}
+
+.header-menu {
+  margin-right: 150px;
+}
+
+.header-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-list .header-item {
+  margin-right: 40px;
+}
+
+.header-list .header-item a:hover {
+  color: rgb(52, 44, 44);
+  padding-bottom: 2px;
+}
+
+.header-list .header-item a {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #4F5665;
+}
+
+.header-list .header-item:last-child {
+  margin-right: 0px;
+}
+
+.header .header-menu-action .action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .header-menu-action .action .item-action-1 {
+  margin-right: 30px;
+}
+
+.header .header-menu-action .action .item-action-1 {
+  margin-right: 30px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #0B132A;
+}
+
+.header .header-menu-action .action .item-action-2 {
+  margin-left: 0px;
+  border: 1px solid #f53855;
+  padding: 12px 40px;
+  border-radius: 50px;
+  transition: 0.5s;
+}
+
+.header .header-menu-action .action .item-action-2:hover {
+  padding: 15px 41px;
+  border: 1px solid #826b6e;
+}
+
+.header .header-menu-action .action .item-action-2 a {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #F53855;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+input,
+textarea,
+select,
+button {
+  outline: none;
+}
+
+input {
+  line-height: normal;
+}
+
+label,
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+.hero {
+  display: flex;
+  margin-top: 70px;
+  margin-bottom: 155px;
+}
+
+.hero .hero-content {
+  margin-right: 40px;
+}
+
+.hero .hero-content h1 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 70px;
+  /* or 140% */
+  color: #0b132a;
+  margin-bottom: 20px;
+}
+
+.hero .hero-content p {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  /* or 188% */
+  color: #4f5665;
+  margin-bottom: 50px;
+}
+
+.hero .hero-content a {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 25px;
+  /* identical to box height, or 156% */
+  color: #ffffff;
+  padding: 17px 70px;
+  background: #f53838;
+  border-radius: 12px;
+}
+
+.intro {
+  max-width: 1068px;
+  align-items: center;
+  margin-bottom: 100px;
+  padding-left: 70px;
+}
+
+.intro .intro-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 100px;
+}
+
+.intro .intro-menu .menu-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.intro .intro-menu .menu-item .image {
+  margin-right: 38px;
+}
+
+.intro .intro-menu .menu-item .image {
+  margin-right: 38px;
+}
+
+.intro .intro-menu .menu-item .image {
+  margin-right: 38px;
+}
+
+.intro .intro-menu .menu-item .info h1 {
+  margin-bottom: 15px;
+}
+
+.intro .intro-menu .menu-item .info p {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+  color: #4f5665;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 140px;
+}
+
+.about .about-image {
+  max-width: 500px;
+  margin-right: 160px;
+}
+
+.about .about-content .title h1 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 50px;
+  color: #0b132a;
+  margin-bottom: 20px;
+}
+
+.about .about-content .title p {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  /* or 188% */
+  color: #4f5665;
+  margin-bottom: 20px;
+}
+
+.about .about-content .menu .menu-item .item {
+  margin-bottom: 20px;
+}
+
+.about .about-content .menu .menu-item .item i {
+  border: none;
+  border-radius: 50%;
+  color: #fff;
+  background: #2fab73;
+  padding: 5px 5px 5px 5px;
+  font-size: 10px;
+}
+
+.about .about-content .menu .menu-item .item span {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  margin-left: 11px;
+  /* identical to box height, or 214% */
+  color: #4f5665;
+}
+
+.plan {
+  margin-top: 80px;
+  margin-bottom: 150px;
+}
+
+.plan .plan-header {
+  margin-bottom: 60px;
+}
+
+.plan .plan-header h1 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 50px;
+  /* identical to box height, or 143% */
+  text-align: center;
+  color: #0b132a;
+}
+
+.plan .plan-header p {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  /* or 188% */
+  text-align: center;
+  color: #4f5665;
+}
+
+.plan .plan-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.plan .plan-content .plan-box {
+  border: 1px solid;
+  align-items: center;
+  border-radius: 20px;
+  width: 300px;
+  height: 750px;
+}
+
+.box2 {
+  margin: 0 40px;
+}
+
+.content-box {
+  text-align: center;
+  margin: 30px 0px;
+}
+
+.plan-box .image-box {
+  width: 145px;
+  height: 165px;
+  margin: 75px 80px 0px 80px;
+}
+
+.plan-box .content-box h1 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  /* identical to box height, or 167% */
+  text-align: center;
+  margin-left: 12px;
+  color: #0b132a;
+}
+
+.menu-box-item .box-item i {
+  border: none;
+  border-radius: 50%;
+  color: #2fab73;
+  padding: 5px 5px 5px 5px;
+  font-size: 12px;
+}
+
+.menu-box-item .box-item span {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  /* identical to box height, or 214% */
+  color: #4f5665;
+  margin-left: 20px;
+  margin-top: 40px;
+}
+
+.menu-box-item {
+  align-items: center;
+  padding-left: 55px;
+}
+
+.menu-box .action-box {
+  margin-top: 130px;
+  text-align: center;
+}
+
+.menu-box .action-box h1 {
+  margin-bottom: 30px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+  /* identical to box height, or 120% */
+  text-align: center;
+  color: #0b132a;
+}
+
+.menu-box .action-box a {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 25px;
+  /* identical to box height, or 156% */
+  color: #ffffff;
+  padding: 17px 70px;
+  background: #f53838;
+  border-radius: 12px;
+  transition: 0.6s;
+}
+
+.menu-box .action-box a:hover {
+  background-color: #f4ebeb;
+  padding: 20px 80px;
+  color: #f53838;
+  border-radius: 12px;
+}
+
+/*# sourceMappingURL=style.css.map */

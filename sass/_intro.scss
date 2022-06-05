@@ -1,0 +1,35 @@
+.intro {
+  max-width: 1068px;
+  align-items: center;
+  margin-bottom: 100px;
+  padding-left: 70px;
+}
+.intro .intro-menu {
+  @include displayflex;
+  padding-bottom: 100px;
+}
+.intro .intro-menu .menu-item {
+  @include displayflex;
+}
+.intro .intro-menu .menu-item .image {
+  margin-right: 38px;
+}
+.intro .intro-menu .menu-item .image {
+  margin-right: 38px;
+}
+.intro .intro-menu .menu-item .image {
+  margin-right: 38px;
+}
+.intro .intro-menu .menu-item .info h1 {
+  margin-bottom: 15px;
+}
+.intro .intro-menu .menu-item .info p {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+
+  color: #4f5665;
+}

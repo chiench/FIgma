@@ -1,0 +1,55 @@
+.about {
+  @include displayflex;
+  margin-bottom: 140px;
+}
+// .about .about-content .title {
+//   margin-right: 170px;
+// }
+.about .about-image {
+  max-width: 500px;
+  margin-right: 160px;
+}
+.about .about-content .title h1 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 50px;
+
+  color: #0b132a;
+  margin-bottom: 20px;
+}
+.about .about-content .title p {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  /* or 188% */
+
+  color: #4f5665;
+  margin-bottom: 20px;
+}
+.about .about-content .menu .menu-item .item {
+  margin-bottom: 20px;
+}
+.about .about-content .menu .menu-item .item i {
+  border: none;
+  border-radius: 50%;
+  color: #fff;
+  background: #2fab73;
+  padding: 5px 5px 5px 5px;
+  font-size: 10px;
+}
+
+.about .about-content .menu .menu-item .item span {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  margin-left: 11px;
+  /* identical to box height, or 214% */
+
+  color: #4f5665;
+}
